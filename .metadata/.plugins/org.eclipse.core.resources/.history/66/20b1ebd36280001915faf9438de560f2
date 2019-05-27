@@ -1,0 +1,10 @@
+server.port=9082
+spring.application.name=API-Gateway
+
+eureka.client.eureka-server-port=8761
+
+### routing rules 
+# zuul.routes
+zuul.routes.BANKSERVICE.path=/**
+zuul.routes.BANKSERVICE.serviceId=BANKSERVICE
+spring.sleuth.sampler.probability=1

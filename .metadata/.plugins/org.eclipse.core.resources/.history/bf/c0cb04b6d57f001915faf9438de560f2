@@ -1,0 +1,4 @@
+server.port=8081
+eureka.client.healthcheck.enabled= true
+eureka.instance.leaseRenewalIntervalInSeconds= 1
+eureka.instance.leaseExpirationDurationInSeconds=1

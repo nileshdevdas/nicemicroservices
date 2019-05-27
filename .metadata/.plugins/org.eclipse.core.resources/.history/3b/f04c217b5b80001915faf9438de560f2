@@ -1,0 +1,14 @@
+server.port=7081
+spring.application.name=BANKCLIENT
+#eureka.client.healthcheck.enabled= true
+#eureka.instance.leaseRenewalIntervalInSeconds= 1
+#eureka.instance.leaseExpirationDurationInSeconds=1
+#ribbon.eureka.enabled=true
+management.endpoints.web.exposure.include=*
+server.tomcat.max-threads=1000
+spring.zipkin.sender.type=WEB
+spring.zipkin.enabled=true
+spring.zipkin.service.name=BANKCLIENT
+spring.zipkin.base-url=http://localhost:9411/
+spring.zipkin.locator.discovery.enabled=false
+spring.sleuth.sampler.probability=1

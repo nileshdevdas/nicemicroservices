@@ -1,0 +1,6 @@
+server.port=9082
+spring.application.name=API-Gateway
+
+eureka.client.eureka-server-port=8761
+zuul.routes.bankservice.path=/**
+zuul.routes.hello.serviceId=Beginner-Microservice

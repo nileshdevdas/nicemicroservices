@@ -1,0 +1,16 @@
+package com.vinsys;
+
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class TestLoadService {
+
+	public static void main(String[] args) {
+
+		ExecutorService service = Executors.newFixedThreadPool(1000);
+		}
+
+}

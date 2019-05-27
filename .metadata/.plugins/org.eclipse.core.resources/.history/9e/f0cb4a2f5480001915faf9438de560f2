@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import java.util.logging.Logger;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ZIpService {
+
+	Logger logger = Logger.getGlobal();
+	public String testZip() {
+		logger.info("Test Zipkin");
+		
+		
+	}
+}

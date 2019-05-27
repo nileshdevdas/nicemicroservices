@@ -1,0 +1,6 @@
+spring.application.name=BANKSERVICE
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/
+eureka.client.healthcheck.enabled= true
+eureka.instance.leaseRenewalIntervalInSeconds= 1
+eureka.instance.leaseExpirationDurationInSeconds=1
+ 

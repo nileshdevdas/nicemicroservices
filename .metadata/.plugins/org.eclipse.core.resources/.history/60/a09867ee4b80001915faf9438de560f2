@@ -1,0 +1,8 @@
+server.port=7081
+#eureka.client.healthcheck.enabled= true
+#eureka.instance.leaseRenewalIntervalInSeconds= 1
+#eureka.instance.leaseExpirationDurationInSeconds=1
+#ribbon.eureka.enabled=true
+management.endpoints.web.exposure.include=*
+server.tomcat.max-threads=1000
+eureka.client.heartbeat-executor-thread-pool-size=100
